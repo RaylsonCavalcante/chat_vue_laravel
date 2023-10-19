@@ -12,7 +12,7 @@ Aqui está um Mini Projetinho desenvolvido usando "Vue 3 e Laravel".
 O sistema se trata de um Chat em tempo real.<br>
 <br>
 
-<h3>LINGUAGENS E FERRAMENTAS:</h3>
+<h3>FERRAMENTAS:</h3>
 Na criação do sistema utilizei as seguintes ferramentas:
 
 * VUE 3 (Front-end)<br>
