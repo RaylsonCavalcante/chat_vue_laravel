@@ -137,7 +137,7 @@
                       <div v-else-if="message.user_id == forId && message.for == idUser.idUser" class="d-flex flex-row justify-content-end">
                         <div>
                           <p class="small p-2 me-3 mb-1 text-white rounded-3 " style="background-color: #81C784;">{{ message.message }}</p>
-                          <p class="small me-3 mb-3 rounded-3 text-muted"></p>
+                          <p class="small me-3 mb-3 rounded-3 text-muted">{{ moment(message.created_at).format("H:mm | DD/MM") }}</p>
                         </div>
                         <img :src="photoUrl + forPhoto"
                          alt="avatar 1" style="width: 45px; height: 100%;" class="rounded-circle">
